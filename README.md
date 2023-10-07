@@ -23,7 +23,7 @@ composer install
 Then start the application
 
 ```
-./vendor/bin/sail up -d
+./vendor/bin/sail up -d 
 ```
 
 Then generate the application key.
