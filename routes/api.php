@@ -20,6 +20,5 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 
 Route::post('/login', [\App\Http\Controllers\Api\AuthController::class, 'login']);
 
-Route::get('/products', [\App\Http\Controllers\Api\ProductController::class, 'index']);
 Route::resource('/products', \App\Http\Controllers\Api\ProductController::class)
     ->only(['show', 'store', 'update', 'destroy'])->middleware('auth:sanctum');
