@@ -34,11 +34,11 @@ Then run the migrations with seed.
 php artisan migrate --seed
 ```
 
-Then visit the product-system.test/login and login with the following credentials:
+Then login with the following credentials at http://localhost/api/login:
 
 ```
 Email:george@example.com
 Password:password
 ```
 
-Then start to use the application end points. 
+Then start to use the application end points.
