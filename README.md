@@ -48,3 +48,9 @@ Password:password
 ```
 
 Then start to use the application end points.
+
+Then you can run tests
+
+```
+php artisan test
+```
