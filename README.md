@@ -41,4 +41,4 @@ Email:george@example.com
 Password:password
 ```
 
-Then start to use the application end points.
+Then start to use the application end points. 
